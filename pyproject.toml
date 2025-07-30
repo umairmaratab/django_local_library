@@ -1,0 +1,8 @@
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+extend-select = ["I", "F", "E", "W", "UP"]  # isort, flake8, pyupgrade, etc.
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
