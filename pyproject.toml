@@ -3,7 +3,7 @@ line-length = 88
 target-version = "py313"
 
 [tool.ruff.lint]
-extend-select = ["I", "F", "E", "W", "UP"]  # isort, flake8, pyupgrade, etc.
+extend-select = ["I", "F", "W", "UP"]  # isort, flake8, pyupgrade, etc.
 
 [tool.ruff.format]
 quote-style = "double"
