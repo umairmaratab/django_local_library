@@ -3,7 +3,8 @@ from datetime import date
 
 from django.conf import settings  # Required to assign User as a borrower
 from django.db import models
-from django.db.models import Lower, UniqueConstraint
+from django.db.models import UniqueConstraint
+from django.db.models.functions import Lower
 from django.urls import reverse  # To generate URLS by reversing URL patterns
 
 
