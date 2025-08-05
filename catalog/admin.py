@@ -17,8 +17,8 @@ admin.site.register(Language)
 
 class BooksInline(admin.TabularInline):
     """Defines format of inline book insertion (used in AuthorAdmin)"""
-
     model = Book
+    extra = 0
 
 
 @admin.register(Author)
