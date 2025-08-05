@@ -38,8 +38,8 @@ class AuthorAdmin(admin.ModelAdmin):
 
 class BooksInstanceInline(admin.TabularInline):
     """Defines format of inline book instance insertion (used in BookAdmin)"""
-
     model = BookInstance
+    extra = 0
 
 
 class BookAdmin(admin.ModelAdmin):
